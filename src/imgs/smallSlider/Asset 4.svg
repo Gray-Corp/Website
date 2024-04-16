@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Inter-Regular, Inter;
+        font-size: 36px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #f5f5f7;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #333;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-family: Inter-SemiBold, Inter;
+        font-size: 60px;
+        font-weight: 600;
+      }
+
+      .cls-5 {
+        opacity: .2;
+      }
+
+      .cls-6 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-4" width="1000" height="600"/>
+      <text class="cls-3" transform="translate(99.06 327.9)"><tspan x="0" y="0">Quality Ou</tspan><tspan class="cls-8" x="304.02" y="0">t</tspan><tspan x="326.48" y="0">comes</tspan></text>
+      <text class="cls-1" transform="translate(100.06 257.56)"><tspan x="0" y="0">Branding &amp; Mar</tspan><tspan class="cls-7" x="261.05" y="0">k</tspan><tspan x="279.81" y="0">eting</tspan></text>
+      <g>
+        <rect class="cls-2" x="100.06" y="101.8" width="100" height="100"/>
+        <g>
+          <rect class="cls-5" x="125.56" y="151.8" width="14.58" height="29.17"/>
+          <rect class="cls-6" x="142.76" y="137.22" width="14.58" height="43.75"/>
+          <rect class="cls-4" x="159.97" y="122.63" width="14.58" height="58.33"/>
+        </g>
+      </g>
+      <path class="cls-2" d="m824.01,435.14l-.61-22c17.23-13.56,31.11-28.01,42.56-47.19,34.75-58.25,23.9-99.94,23.9-99.94l10.14-17.44-15.29,13.02s-42.87-4.38-95.13,38.84c-17.2,14.21-29.36,30.1-40.13,49.17l-21.93,2.76s-30.08,10.15-57.2,54.73c0,0,33.4-11.57,52.67-1.51-2.04,4.73-4.14,9.62-6.32,14.68,0,0-.13,8.21,16.82,22.75,16.94,14.53,25.13,13.23,25.13,13.23,4.66-2.93,9.17-5.74,13.53-8.47,12.81,17.52,6.48,52.23,6.48,52.23,39.93-33.58,45.38-64.86,45.38-64.86Zm8.06-106.97c-6.1-5.23-6.8-14.41-1.57-20.5,5.23-6.09,14.4-6.8,20.5-1.57,6.09,5.23,6.79,14.4,1.57,20.5-5.22,6.09-14.4,6.8-20.49,1.57Z"/>
+    </g>
+  </g>
+</svg>

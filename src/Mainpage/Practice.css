@@ -1,0 +1,40 @@
+.container {
+    height: 50vh;
+    border: 2px solid #f00;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.button {
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.button.active {
+    background-color: #ccc;
+}
+
+.div {
+    height: 30vh;
+    width: 2/12;
+}
+
+.div.active {
+    display: block;
+}
+
+.div {
+    display: none;
+}

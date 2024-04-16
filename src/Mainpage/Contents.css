@@ -1,0 +1,327 @@
+.devMain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    
+}
+.devPhoto{
+    height: 95vh;
+    width: 100%;
+}
+.devPhotoImage{
+   height: 95vh;
+   width: 100%;
+
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    padding: 3%;
+
+}
+.productTypes{
+    padding-top: 15vh;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    height: auto;
+    width: calc((100% - 6vh) / 3);
+    max-width: 32%;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+   
+}
+.ProIcon{
+    width: 100%;
+    font-size: 10vh;
+}
+.ProName{
+    width: 100%;
+    font-size: x-large;
+}
+@media (max-width: 768px) {
+    .productTypes {
+      width: calc((100% - 4vh) / 2); /* 2 items per row with gap */
+      max-width: 48%;
+    }
+    .GNL{
+        @apply h-[10vh]
+    }
+    .divGNL{
+        @apply gap-2 space-y-2
+    }
+   .logoTitle{
+    @apply text-3xl
+   }
+
+}
+#Logos{
+  
+    @apply md:h-[12vh] md:w-[25vh] flex justify-end items-end
+}
+.divLogo{
+    @apply flex justify-evenly flex-wrap gap-12 pt-5 
+}
+.card {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 30%;
+    height: 45vh;
+    background-color: #f5f5f7;
+    border: 1px solid #333333;
+    box-shadow: 7px 15px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(6px);
+    border-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+
+.companyName{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: RGB(213,213,216);    
+}
+.comNam{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    font-size: 15vh;
+    color: #333333;
+   
+}
+
+.comMoto{
+    background-color: RGB(213,213,216);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    color: #666666;
+}
+.comMotoPart{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+.comMotoPart>div{
+    display: flex;
+    width: 70%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.slot{
+    height: auto;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 6vh;
+}
+.slot-details{
+    font-size: 2.5vh;
+} 
+#slotButt{
+    justify-content: center;
+    column-gap: 5vh;
+    padding-top: 3%;    
+}
+#testId{
+    border: 1px solid brown;
+    height: 12vh;
+}
+.butt {
+    --color: #999999;
+    background-color: #333333;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    width: 15vh;
+    height: 7vh;
+    line-height: 5vh;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    border-radius: 6px;
+    font-size: 2.25vh;
+    color: white;
+   }
+   
+   .butt:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .butt:hover {
+    color: #101010;
+   }
+   
+   .butt:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .butt:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .butt:active:before {
+    background: #999999;
+    transition: background 0s;
+   }
+#myBtn{
+    background-color: #999999;
+    border-color: #999999;
+    color: #efecec;
+    --color: #080808;
+
+}
+#myBtn :hover{
+    color: #333333;
+}
+
+.imgSlideDiv{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.imgSlideImage{
+   
+}
+.imgSlider{
+    height:30vh;
+    padding:1%;
+    width:98%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 1%;
+    
+}
+@media screen and (max-width: 760px) {
+    .devMain>div>h2{
+            font-size: large;
+    }
+.comNam{
+    font-size: 8vh;
+    height: auto;
+    width: auto;
+    font-weight: 600;
+} 
+.companyName{
+    height: auto;
+}
+.slot{
+    font-size: 3.5vh;
+    height: 0.5vh;
+}
+.slot-details{
+    font-size: 1.5vh;
+    color: #999999;
+    padding: 0%;
+    
+} 
+#slotButt{
+    padding-top: 5.5%;
+}
+.comMotoPart{
+    display: flex;
+    row-gap: 0.5vh;
+    height: 4vh;
+}
+.comMotoPart>div{
+    width: auto;
+    display: flex;
+    height: auto;
+} 
+.unleash{
+    font-size: 3.5vh;
+    height: 10vh;
+}
+.btn{
+    font-size: x-small;
+    width: 90%;
+}
+.companyNameAndDetails{
+    height: 40vh;
+    
+}
+.comMoto{
+    height: 23vh;
+}
+.devPhotoImage{
+    height: auto;
+}
+.imgSlideImage{
+height: 10vh;
+}
+.imgSlider{
+    height: 15vh;
+    margin-top: 5%;
+}
+.devPhoto{
+    height: auto;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+
+}
+.productTypes{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 32%;
+}
+.ProIcon{
+font-size: 5vh;
+}
+.ProName{
+  font-size: x-small;  
+}
+}

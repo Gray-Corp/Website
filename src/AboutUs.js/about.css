@@ -1,0 +1,246 @@
+.nvmMain{
+    
+    height: 75vh;
+    display: flex;
+    column-gap: 3vh;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1%;
+    font-family: "Inter", sans-serif;
+@apply bg-white
+}
+.nvmMain> div{
+    background-color: #f5f5f7;
+    height: 50vh;
+    width: 35%;
+    
+}
+.names{
+    width: 60%;
+    height: 35vh;
+   
+}
+.vision{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #333333;
+   
+}
+.vision>div{
+    height: 20vh;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    justify-content: center;
+    text-align: center;
+}
+.details{
+    border: 1px solid #333333;
+    background-color: #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    align-items: center;
+}
+.details>div{
+   
+    width: 61%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    justify-content: space-around;
+    padding: 1%;
+    text-align: justify;
+}
+.details>div>h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+.details>div>p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+@media screen and (max-width: 760px) {
+  .CompanyPhoto{
+    height: 35vh;
+  }
+  .CompanyPhoto>img{
+    height: 90%;
+    width: 90%;
+  }
+  .details > div > h1 {
+      font-size: medium; /* Adjust the font size for mobile view */
+    }
+    .tests{
+        
+        font-size: small;
+    }
+  }
+  .WhyWeMain{
+    
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    justify-content: center;
+    align-items: center;
+  }
+  #WhyWeCaption{
+    height: 10vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 7vh;
+    margin-left: -5%;
+  }
+  
+  .WhyWeMain>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    height: 75vh;
+    width: 70%;   
+    padding: 1%;
+   
+
+  }
+  .WhyWeMain>div>div{
+   
+    width: 30%;
+    height: 70vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+   
+  }
+  .WhyWeMain>div>div>div{
+ 
+    height: 35vh;
+    width: 100%;
+    padding: 1%;
+  }
+  #WhyWeLogo{
+   width: 45%;
+   height: 15vh;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   padding: 15%;
+   font-size: 5vh;
+   color: #333333;
+   border-color: #333333;
+   background-color: #999999;
+   margin-left: -35%;
+   
+  }
+  #WhyWeHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+    padding: 2%;
+    font-family: "Inter", sans-serif;
+  }
+  #WhyWeHead>h1{
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  #WhyWeHead>h3{
+    font-size: x-large;
+    font-weight: 500;
+  }
+  #WhyWeOl{
+    padding-top: 10%;
+  }
+  #WhyWeOl>ol{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    justify-content: space-between;
+  }
+  #WhyWeOl>ol>li{
+    font-size: large;
+    font-weight: 500;
+  }
+    
+@media screen and (max-width: 1200px) {
+
+  #WhyWeLogo{
+    height: 12vh;
+    font-size: 4vh;
+   }
+   #WhyWeHead>h1{
+    font-size: x-large;
+    font-weight: 500;
+
+  }
+  #WhyWeHead>h3{
+    font-size: large;
+    font-weight: 500;
+  }
+  #WhyWeOl>ol>li{
+    font-size: large;
+  
+  }
+
+}
+   
+@media screen and (max-width: 1000px) {
+
+  #WhyWeLogo{
+    height: 5vh;
+    font-size: 2vh;
+   }
+   #WhyWeHead>h1{
+    font-size: small;
+    
+  }
+  #WhyWeHead>h3{
+    font-size: x-small;
+   
+  }
+  #WhyWeOl>ol>li{
+    font-size: x-small;
+    
+  }
+  .WhyWeMain>div{
+    width: 75%;
+    display: flex;
+    height: 50vh;
+  }
+  .WhyWeMain>div>div{
+   
+    width: 32%;
+    height: 70vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+   
+  }
+  .backimgapple{
+    width: 100%;
+    height: 10vh;
+  }
+  .nvmMain{
+    height: 50vh;
+   
+  }
+  .names,.vision{
+    height: 25vh;
+  }
+  
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        font-family: Inter-Regular, Inter;
+        font-size: 36px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #f5f5f7;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        fill: #333;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        font-family: Inter-SemiBold, Inter;
+        font-size: 60px;
+        font-weight: 600;
+      }
+
+      .cls-8 {
+        opacity: .2;
+      }
+
+      .cls-9 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-7" width="1000" height="600"/>
+      <text class="cls-5" transform="translate(99.06 327.9)"><tspan x="0" y="0">Ef</tspan><tspan class="cls-2" x="59.08" y="0">f</tspan><tspan x="80.47" y="0">ecti</tspan><tspan class="cls-1" x="189.12" y="0">v</tspan><tspan x="222.55" y="0">e St</tspan><tspan class="cls-6" x="334.75" y="0">r</tspan><tspan x="357.93" y="0">a</tspan><tspan class="cls-11" x="392.4" y="0">t</tspan><tspan x="414.86" y="0">egies</tspan></text>
+      <text class="cls-3" transform="translate(100.06 257.56)"><tspan x="0" y="0">Branding &amp; Mar</tspan><tspan class="cls-10" x="261.05" y="0">k</tspan><tspan x="279.81" y="0">eting</tspan></text>
+      <g>
+        <rect class="cls-4" x="100.06" y="101.8" width="100" height="100"/>
+        <g>
+          <rect class="cls-8" x="125.56" y="151.8" width="14.58" height="29.17"/>
+          <rect class="cls-9" x="142.76" y="137.22" width="14.58" height="43.75"/>
+          <rect class="cls-7" x="159.97" y="122.63" width="14.58" height="58.33"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <rect class="cls-4" x="803.12" y="365.09" width="14.1" height="65.45"/>
+          <rect class="cls-4" x="827.58" y="335.21" width="14.1" height="95.33"/>
+          <rect class="cls-4" x="858.31" y="384.01" width="14.1" height="46.52"/>
+          <rect class="cls-4" x="885.9" y="365.09" width="14.1" height="65.45"/>
+          <g>
+            <polygon class="cls-4" points="864.44 378.84 835.14 312.62 807.55 360.2 804.45 358.12 835.57 304.45 864.97 370.91 886.71 336.01 889.74 338.2 864.44 378.84"/>
+            <polygon class="cls-4" points="893.07 343.34 894.03 327.72 880.95 334.63 893.07 343.34"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <polygon class="cls-4" points="754.39 414.79 737.64 402.23 770.04 359.01 786.79 371.57 754.39 414.79"/>
+            <path class="cls-4" d="m854.59,263.71c-30.29-22.71-73.26-16.57-95.97,13.72-22.71,30.29-16.57,73.25,13.72,95.97,30.29,22.7,73.25,16.56,95.97-13.73,22.69-30.29,16.56-73.25-13.72-95.95Zm-71.31,95.09c-22.23-16.67-26.74-48.21-10.07-70.44,16.67-22.23,48.2-26.74,70.43-10.07,22.23,16.67,26.74,48.2,10.07,70.43-16.67,22.23-48.2,26.74-70.44,10.07Z"/>
+            <path class="cls-4" d="m707.27,496.22c-3.13,4.17-9.06,5.02-13.24,1.89l-19.45-14.59c-4.17-3.13-5.02-9.06-1.89-13.24l61.03-81.41c3.14-4.18,9.07-5.03,13.24-1.89l19.44,14.57c4.19,3.14,5.03,9.06,1.89,13.24l-61.03,81.42Z"/>
+          </g>
+          <path class="cls-4" d="m759.47,408.02l27.32-36.45-8.44-6.33-22.02,28.77s1.84,8.54,3.13,14.01Z"/>
+          <path class="cls-4" d="m766.4,401.56l-10.07-7.56-71.63,97.12h0l9.32,6.99c4.18,3.13,10.1,2.28,13.24-1.89l61.03-81.42c3.13-4.18,2.29-10.1-1.89-13.24Z"/>
+          <path class="cls-4" d="m868.31,359.66c22.69-30.29,16.56-73.25-13.72-95.95l-10.95,14.59c22.23,16.67,26.74,48.2,10.07,70.43-16.67,22.23-48.2,26.74-70.44,10.07h0l-10.94,14.59c30.29,22.7,73.25,16.56,95.97-13.73Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

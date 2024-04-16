@@ -1,0 +1,146 @@
+@media screen and (max-width: 760px) {
+    .titleExtra{
+        @apply flex flex-wrap
+    }
+    
+    .titleDesc > p{
+        @apply hidden
+    }
+    .titleDesc > h1{
+        @apply text-[1vh] text-[#333333]
+    }
+    .titles{
+      @apply flex flex-col justify-center items-center h-[10vh] w-[30.75%] ml-1
+    }
+   .titleExtra{
+    @apply p-2 flex gap-1
+   }
+   .titleIcon { 
+    @apply md:h-[12vh] w-[7vh]
+    flex justify-center items-center text-[4vh] ; 
+}
+.titleSub{
+    @apply w-[100%] 
+}
+.titleMain{
+    @apply h-auto
+}
+}
+
+
+h1{
+    color: #333333
+}
+.titles{ @apply 
+    flex items-center 
+    md:p-5 md:flex md:space-x-1 md:w-[100%] border-2 cursor-pointer shadow-md drop-shadow-sm;
+    
+    }
+.titles :hover{
+    background-color: RGB(213, 213, 216);
+}
+
+.titleSub{ @apply md:w-[78%] md:ml-5 md:h-auto pt-12 ;
+ }
+
+.titleMain { @apply md:h-[38vh] flex justify-center p-2 mt-[0.25%]}
+
+.titleIcon { 
+            @apply md:h-[7vh] md:w-[7vh] flex justify-center items-center md:text-[7vh] ; 
+        }
+
+.titleDesc{
+    @apply md:w-[75%] md:p-1 flex flex-col space-y-1
+}
+.titleHead{
+    @apply text-lg font-bold
+}
+.titleDesc > p{
+    @apply md:text-[2vh] text-[#666666] 
+}
+.titleViewLink{
+    @apply text-left cursor-pointer font-medium
+}
+
+
+@media screen and (max-width: 760px) {
+    .ServicesMain{ @apply w-full pt-7 gap-24}
+    .ourServices{ @apply w-[100%] gap-3}
+    .serviceImage{@apply w-[50vh] p-6 }
+    .serviceMenu{
+@apply p-1 flex-col
+     }
+    .serviceMenu >h1{ @apply text-xl }
+    .serviceMenu>span{
+        @apply text-3xl font-bold text-[#333333] flex md:gap-x-5 justify-center
+    
+    }
+    .serviceMenu >p{
+        @apply text-justify p-6 text-[#666666] line-clamp-5 mt-[-2vh]
+        }
+        .serviceItems{
+        
+        }
+        .serviceItemButton{
+            padding: none;
+              @apply w-11/12 h-12
+        }
+        .serviceItemsSub{
+        @apply flex-col justify-center gap-3 p-3
+        }
+}
+
+
+
+
+.ServicesMain{
+   
+@apply h-auto flex flex-col md:space-y-10 items-center md:pt-12;
+
+}
+.ourServices{
+    
+    @apply md:w-[77%] md:ml-5 flex flex-col items-center justify-between md:gap-10
+}
+.serviceImage{
+    
+@apply md:w-5/12
+}
+.serviceMenu{
+    
+    @apply md:w-7/12 flex-col md:space-y-5 md:p-2 text-[#333333];
+    
+}
+
+.serviceMenu>span{
+    @apply md:text-4xl font-bold text-[#333333] flex md:gap-x-5 p-5
+
+}
+.serviceMenu > p{
+@apply md:text-justify md:p-5 text-[#666666] text-sm 
+}
+.serviceItems{
+
+    @apply md:h-[20vh] md:bg-[#f2f2f2] w-full 
+}
+
+.serviceItemButton{
+    padding: 0 20px;
+    @apply inline-block outline-none border-none cursor-pointer
+    md:text-sm bg-[#333333] text-[#f5f5f7] md:h-10
+
+}
+.serviceItemButton:hover {
+    background-color: #666666;
+   
+    
+}
+.serviceItemsSub{
+    @apply flex md:justify-around md:gap-12 items-center md:pt-12
+}
+.ModalOkButton{
+    @apply border-2 bg-[#999999]
+}
+.ModalOkButton:hover{
+@apply bg-slate-100
+}
