@@ -10,11 +10,10 @@
         @apply text-[1vh] text-[#333333]
     }
     .titles{
-      @apply flex flex-col justify-center items-center h-[10vh] w-[30.75%] ml-1
+      @apply flex flex-col justify-center items-center h-[10vh] md:w-[30.75%] ml-1
+      mob:w-1/3
     }
-   .titleExtra{
-    @apply p-2 flex gap-1
-   }
+
    .titleIcon { 
     @apply md:h-[12vh] w-[7vh]
     flex justify-center items-center text-[4vh] ; 
@@ -27,27 +26,30 @@
 }
 }
 
-
 h1{
     color: #333333
 }
 .titles{ @apply 
-    flex items-center 
-    md:p-5 md:flex md:space-x-1 md:w-[100%] border-2 cursor-pointer shadow-md drop-shadow-sm;
+    flex items-center md:p-5 md:flex md:space-x-1 md:w-[100%] 
+    border-2 cursor-pointer shadow-md drop-shadow-sm mob:w-[30.75%]; 
     
     }
-.titles :hover{
-    background-color: RGB(213, 213, 216);
+.titles:hover{
+   @apply bg-[#cccccc]
 }
 
-.titleSub{ @apply md:w-[78%] md:ml-5 md:h-auto pt-12 ;
+.titleSub{ @apply w-full md:h-auto pt-12 flex justify-center;
  }
 
-.titleMain { @apply md:h-[38vh] flex justify-center p-2 mt-[0.25%]}
+.titleMain { @apply flex flex-col justify-center mt-[0.25%]}
 
 .titleIcon { 
-            @apply md:h-[7vh] md:w-[7vh] flex justify-center items-center md:text-[7vh] ; 
+            @apply md:h-[7vh] md:w-[7vh] flex justify-center items-center 
+            md:text-[7vh] mob:w-[5vh] mob:h-[5vh]; 
         }
+.titleExtra{
+            @apply flex items-center justify-center md:gap-5 h-auto md:w-9/12 mob:w-full
+}
 
 .titleDesc{
     @apply md:w-[75%] md:p-1 flex flex-col space-y-1
@@ -78,16 +80,16 @@ h1{
     .serviceMenu >p{
         @apply text-justify p-6 text-[#666666] line-clamp-5 mt-[-2vh]
         }
-        .serviceItems{
+.serviceItems{
         
-        }
+}
         .serviceItemButton{
             padding: none;
               @apply w-11/12 h-12
         }
-        .serviceItemsSub{
+.serviceItemsSub{
         @apply flex-col justify-center gap-3 p-3
-        }
+}
 }
 
 
@@ -95,7 +97,7 @@ h1{
 
 .ServicesMain{
    
-@apply h-auto flex flex-col md:space-y-10 items-center md:pt-12;
+@apply h-auto flex flex-col md:space-y-36 items-center md:pt-12;
 
 }
 .ourServices{

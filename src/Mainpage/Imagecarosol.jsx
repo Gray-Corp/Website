@@ -1,9 +1,10 @@
 import React from 'react'
 import './Contents.css'
-import photo from '../imgs/PHOTO.jpg'
-import photo2 from '../imgs/Digimarket.jpg'
-import photo3 from '../imgs/DPHOTO.jpg'
-import photo4 from '../imgs/Designs.jpg'
+
+import photo2 from '../imgs/BigSlider/Asset 1.svg'
+import photo3 from '../imgs/BigSlider/Asset 2.svg'
+import photo4 from '../imgs/BigSlider/Asset 3.svg'
+import photo5 from '../imgs/BigSlider/Asset 4.svg'
 import { Carousel } from 'antd'
 import Button from 'react-bootstrap/Button';
 import AOS from 'aos';
@@ -16,10 +17,11 @@ function Imagecarosol() {
   return (
     <div className='devPhoto' >
        <Carousel autoplay style={{height:'auto',width:'100%'}}>
-       <img alt='#' className='devPhotoImage' src={photo} ></img>
+ 
        <img alt='#' className='devPhotoImage' src={photo2} ></img>
        <img alt='#' className='devPhotoImage' src={photo3} ></img>
        <img alt='#' className='devPhotoImage' src={photo4} ></img>
+       <img alt='#' className='devPhotoImage' src={photo5} ></img>
      </Carousel> 
     
     

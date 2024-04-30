@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       screens: {
         'mob': {'max': '760px'},
+        'apple': {'max': '1500px'},
+        'app':{"min": "1500px"},
       }
     },
   },

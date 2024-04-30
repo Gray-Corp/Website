@@ -17,28 +17,15 @@ function Developing() {
   return (
     <div className='devMain' >
    
-      <div className='flex flex-col space-y-1 md:h-[85vh] w-full justify-center items-center text-center  pt-2 bg-[#333333] text-[#cccccc]'>
-      <div className='flex flex-col md:gap-12 justify-start items-start divGNL pt-2 pb-3  w-9/12'>
-      <img src={Go} className=' md:h-[20vh] GNL'/>
-      <img src={Next} className=' md:h-[20vh] GNL'/>
-      <img src={Level} className=' md:h-[20vh] GNL'/>
+      <div className='flex flex-col space-y-1 w-full justify-center 
+      items-center text-center pt-2 mob:pt-5 bg-[#333333] text-[#cccccc]'>
+      <div className='flex flex-col md:gap-12 justify-start items-start divGNL py-5  w-9/12'>
+      <img src={Go} className=' md:h-[20vh] GNL' alt=''/>
+      <img src={Next} className=' md:h-[20vh] GNL' alt=''/>
+      <img src={Level} className=' md:h-[20vh] GNL' alt=''/>
       </div>
       </div>
       <Imagecarosol/>
-    <div className='products'>
-    <div className='productTypes card'> 
-    <div className='ProIcon'><FontAwesomeIcon icon={faMobilePhone}/></div>
-    <div className='ProName'><b> <p> IT SOLUTIONS </p> </b></div>
-     </div>
-     <div className='productTypes card'> 
-    <div className='ProIcon'><FontAwesomeIcon icon={faComputer}/></div>
-    <div className='ProName'><b> <p> BRANDING & MARKETING </p> </b></div>
-     </div>
-     <div className='productTypes card'> 
-    <div className='ProIcon'><FontAwesomeIcon icon={faGlobe}/></div>
-    <div className='ProName'><b> <p> GRAPHICS AND DESIGNING </p> </b></div>
-     </div>
-    </div>
     </div>
   )
 }

@@ -13,7 +13,6 @@ function ServiceMain() {
       <TopMenu/>
       <div className='h-7'></div>
       <ServiceTitles/>
-      <Services/>
       <div className='h-[8vh]'></div>
       <FooterMenu/>
     </div>

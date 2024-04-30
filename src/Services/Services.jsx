@@ -2,16 +2,16 @@ import React from 'react'
 import { useState } from 'react';
 import img1 from '../imgs/SVG/itServices.svg'
 import img2 from '../imgs/SVG/marketingServices.svg'
-import img3 from '../imgs/SVG/designingServices.svg'
+import img3 from '../imgs/SVG/serviceImg.svg'
 import img4 from "../imgs/SVG/itServicesBlack.svg"
-import img5 from "../imgs/SVG/designingServicesBlack.svg"
+import img5 from "../imgs/Asset 36.svg"
 import img6 from "../imgs/SVG/marketingServicesBlack.svg"
 import ItServices from './ItServices'
 import { Button, Modal,Divider } from 'antd';
 import { Md18UpRating } from 'react-icons/md'
 import { DiCode, DiJava } from 'react-icons/di'
 import { BiCart } from 'react-icons/bi';
-import { ItSolutionServices,MarketingServices,DesigningServices } from './ServiceItemModal';
+import { ItSolutionServices,MarketingServices,ConsultingSupporting } from './ServiceItemModal';
 
 const MyList = [
   {
@@ -134,11 +134,11 @@ function Services() {
         <span className='flex mob:mt-[-2.5vh] mob:space-x-2'>
         <img src={img5} className='md:h-12 md:w-12 mob:h-10 mob:w-10' alt=''/>
         <h1 className='mt-1'>
-        Graphics & Designing
+        Consulting & Support
         </h1>
         </span>
         <p>
-        Dive into a world where creativity meets functionality. 
+      Dive into a world where creativity meets functionality. 
       Our team specializes in crafting visually stunning elements that not only captivate but also communicate your brand's essence effectively. 
       Whether it's the creation of a memorable logo that serves as the cornerstone of your identity or the development of comprehensive branding materials that establish a cohesive visual language, 
       we ensure every aspect reflects your brand's uniqueness. 
@@ -148,7 +148,7 @@ function Services() {
         <img src={img3} className='serviceImage' alt=''/>
         </div>
         <div className='serviceItems'>
-        <DesigningServices/>
+        <ConsultingSupporting/>
       </div>
       </div>
   

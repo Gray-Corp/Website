@@ -26,7 +26,7 @@ function TopMenu() {
     ], },
     { name: "Services", link: '/services', icon: 'images-outline' },
     { name: "About", link: '/aboutus', icon: 'images-outline' },
-    { name: "Contact", link: '/contactus', icon: 'images-outline' },
+    { name: "Contact", link: '/contact', icon: 'images-outline' },
     
   ];
 
@@ -47,15 +47,17 @@ function TopMenu() {
         </div>
 
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static 
-        bg-[#333333] md:z-auto z-[1] left-0 w-full md:w-auto md:pl-0 pl-9 
+        bg-[#333333] md:z-auto z-[1] left-0 w-full md:w-auto md:pl-0 
         transition-all duration-500 ease-in ${isOpen ? 'top-10' : 'top-[-500px]'}`}>
           {links.map((link, index) => (
-            <li key={index} className='md:ml-8 text-xs text-[#f2f2f2] md:my-0 my-7'>
-              <a href={link.link} className='hover:text-[#999999] duration-200' onClick={() => handleToggleSubLinks(index)}>
-                {link.name}
-              </a>
+            <a key={index} href={link.link} className='' onClick={() => handleToggleSubLinks(index)}>
+            <li  className='md:ml-8 text-xs text-[#cccccc] md:my-0 my-7
+            duration-200 flex justify-center mob:w-full hover:text-[#f2f2f2]'>
               
+                {link.name}
+                            
             </li>
+            </a>
           ))}
         </ul>
 

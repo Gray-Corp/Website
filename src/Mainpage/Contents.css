@@ -19,43 +19,23 @@
 
 }
 .products{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    max-width: 100%;
-    height: auto;
-    padding: 3%;
+     @apply flex justify-center items-center flex-wrap p-2 
+     mob:gap-3 md:gap-2
 
 }
 .productTypes{
-    padding-top: 15vh;
-    padding: 3vh;
-    display: flex;
-    flex-direction: column;
-    row-gap: 3vh;
-    height: auto;
-    width: calc((100% - 6vh) / 3);
-    max-width: 32%;
     font-family: 'Inter', sans-serif;
-    text-align: center;
-   
+    @apply p-3 flex flex-col  text-center 
 }
 .ProIcon{
-    width: 100%;
-    font-size: 10vh;
+    @apply md:text-6xl mob:text-2xl
 }
 .ProName{
-    width: 100%;
-    font-size: x-large;
+    @apply md:text-xl mob:text-sm
 }
 @media (max-width: 768px) {
-    .productTypes {
-      width: calc((100% - 4vh) / 2); /* 2 items per row with gap */
-      max-width: 48%;
-    }
     .GNL{
-        @apply h-[10vh]
+        @apply h-[5vh]
     }
     .divGNL{
         @apply gap-2 space-y-2
@@ -63,7 +43,11 @@
    .logoTitle{
     @apply text-3xl
    }
-
+   .paraValues{
+    background: none;
+    
+   }
+ 
 }
 #Logos{
   
@@ -73,24 +57,11 @@
     @apply flex justify-evenly flex-wrap gap-12 pt-5 
 }
 .card {
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    width: 30%;
-    height: 45vh;
-    background-color: #f5f5f7;
-    border: 1px solid #333333;
-    box-shadow: 7px 15px 30px rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(6px);
-    border-radius: 0;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    font-weight: bolder;
-    color: black;
+   @apply md:w-1/4 md:h-80 bg-gray-100 border-2 border-gray-800 
+   shadow-lg backdrop-blur-md rounded-none text-center cursor-pointer 
+   transition-all duration-500 flex items-center justify-center 
+   select-none font-semibold text-black py-10 md:gap-y-10 mob:w-[30%] mob:h-36
+     
   }
   
   .card:hover {
@@ -102,60 +73,32 @@
     transform: scale(0.95) rotateZ(1.7deg);
   }
 
-
-.companyName{
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: RGB(213,213,216);    
+.companyNameAndDetails{
+    @apply bg-[#f2f2f2] flex justify-center md:py-12   
 }
-.comNam{
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 20vh;
-    display: flex;
-    font-size: 15vh;
-    color: #333333;
-   
+.comNameAndDetailsSub{
+    @apply md:w-10/12 mob:w-11/12 flex flex-col md:gap-10 
+    mob:items-center justify-center  mob:gap-7 mob:pt-5
 }
-
-.comMoto{
-    background-color: RGB(213,213,216);
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    color: #666666;
+.slogan{
+    @apply md:text-6xl md:font-bold text-[#333333] 
+    flex flex-col items-center justify-center mob:text-2xl mob:font-extrabold mob:gap-2
 }
-.comMotoPart{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    align-items: center;
+.contactButton{
+    @apply flex justify-center md:py-5 mob:px-2 mob:py-3 mob:w-full
 }
-.comMotoPart>div{
-    display: flex;
-    width: 70%;
-    text-align: justify;
-    justify-content: center;
-    align-items: center;
+.contactButton>a>button{
+    @apply text-[#f2f2f2] bg-[#333333] h-full w-full text-base
 }
-.slot{
-    height: auto;
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    font-size: 6vh;
+.contactButton>a{
+    @apply md:h-14 md:w-1/6 text-xl mob:h-10 mob:w-1/2 mob:px-5
 }
-.slot-details{
-    font-size: 2.5vh;
-} 
-#slotButt{
-    justify-content: center;
-    column-gap: 5vh;
-    padding-top: 3%;    
+.girlImg{
+    @apply flex justify-center
+}
+.links{
+    @apply md:font-semibold mob:gap-3 flex mob:flex-wrap 
+    justify-between pt-3 mob:text-xs
 }
 #testId{
     border: 1px solid brown;
@@ -233,6 +176,7 @@
     display: flex;
     justify-content: space-around;
     column-gap: 1%;
+
     
 }
 @media screen and (max-width: 760px) {
@@ -294,34 +238,16 @@ height: 10vh;
 }
 .imgSlider{
     height: 15vh;
-    margin-top: 5%;
+  
+    padding: 0;
 }
 .devPhoto{
     height: auto;
 }
-.products{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    padding: 1%;
+.imgSlideDiv{
+    padding-top: 0%;
+    margin-top: -5%;
+   
+}
 
-}
-.productTypes{
-    padding: 3vh;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2vh;
-    height: auto;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    width: 32%;
-}
-.ProIcon{
-font-size: 5vh;
-}
-.ProName{
-  font-size: x-small;  
-}
 }

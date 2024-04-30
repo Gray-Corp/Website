@@ -22,13 +22,10 @@ import { BsFillPaletteFill } from 'react-icons/bs';
 
 const TrustedCompanies = () => {
   return (
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex md:w-9/12 flex-col md:space-y-[10vh]">
-        <h2 className="text-center md:text-5xl font-semibold leading-8 text-[#333333] logoTitle">Innovative Tech Trends</h2>
+    <div className="bg-white md:py-14">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex md:w-9/12 flex-col md:space-y-[10vh] mob:space-y-8">
+        <h2 className="text-center md:text-5xl font-semibold py-3 text-[#333333] logoTitle">Innovative Tech Trends</h2>
         <img src={techImage} alt='' className='w-[100%]'/>
-
- 
-
       </div>
     </div>
   );

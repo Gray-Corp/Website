@@ -14,6 +14,8 @@ import Practice from './Practice';
 import Technology from './Technology';
 import TrustedCompanies from './MyTechs';
 import Products from './Products';
+import Details from "../AboutUs.js/Details";
+import WhyUs from '../AboutUs.js/WhyUs';
 
 
 const Main = () => {
@@ -21,13 +23,22 @@ const Main = () => {
   return (
     <div style={{display:'flex',flexDirection:'column'}}>
         <TopMenu/>
+        <div className='h-10'></div>
         <CompanyName/>
-        <Products/>
-        <ImageSlider/>
-        <Technology/>
-        <TrustedCompanies/>
+       
         <Developing/>
+        <div className='md:h-14 mob:h-9 bg-[#333333]'></div>
+        <Products/>
+        <div className='md:h-14 mob:h-9 bg-[#333333]'></div>
+        <Technology/>
+        <div className='md:h-14 mob:h-10'></div>
+        <ImageSlider/>
+        <TrustedCompanies/>
+        <div className='mob:h-10 md:h-14' ></div>
         <ParalaxValues/>
+        <div className='h-10'></div>
+       <Details/>
+       <div className='h-10'></div>
        <FooterMenu/>
         
     </div>

@@ -62,6 +62,7 @@ export const ItSolutionServices = () => {
                         borderRadius: "0px",
                     }
                 }}
+                footer={null}
             >
                 {selectedService && <p>{selectedService.description}</p>}
             </Modal>
@@ -119,12 +120,14 @@ export const MarketingServices = () => {
         open={open}
         onOk={closeModal}
         onCancel={closeModal}
+        footer={null}
         okButtonProps={{
             style: {
                 backgroundColor: '#999999',
                 borderColor: '#666666',
                 borderRadius: "0px",
             }
+        
         }}
     >
         {selectedService && <p>{selectedService.description}</p>}
@@ -133,11 +136,11 @@ export const MarketingServices = () => {
 )
 }
 
-export const DesigningServices = () => { 
+export const ConsultingSupporting = () => { 
   const [selectedService, setSelectedService] = useState(null);
     const [open, setOpen] = useState(false);
     const showModal = (index) => {
-        setSelectedService(DesigningServices[index]);
+        setSelectedService(Services[index]);
         setOpen(true);
     };
 
@@ -145,41 +148,36 @@ export const DesigningServices = () => {
         setSelectedService(null);
         setOpen(false);
     };
-    const DesigningServices = [
+    const Services = [
       {
-          title: "Logo Design",
+          title: "Web & Mobile app consulting",
           description: `IT solutions encompass technology-based approaches to address business needs, 
                         including software, hardware, cloud services, 
                         security measures, and tailored digital solutions.`,
       },
       {
-          title: "Brand Design",
+          title: "Branding Consulting",
           description: `IT solutions encompass technology-based approaches to address business needs, 
                         including software, hardware, cloud services, 
                         security measures, and tailored digital solutions.`,
       },
       {
-          title: "Promotional Material Design",
+          title: "Promotion consulting",
           description: `IT solutions encompass technology-based approaches to address business needs, 
                         including software, hardware, cloud services, 
                         security measures, and tailored digital solutions.`,
       },
       {
-          title: "Animated Advertisements",
+          title: "Digital Supports",
           description: `IT solutions encompass technology-based approaches to address business needs, 
                         including software, hardware, cloud services, 
                         security measures, and tailored digital solutions.`,
       },
-      {
-        title: "Video productions",
-        description: `IT solutions encompass technology-based approaches to address business needs, 
-                      including software, hardware, cloud services, 
-                      security measures, and tailored digital solutions.`,
-    },
+      
   ];
   return (
     <div className='serviceItemsSub'>
-    {DesigningServices.map((service, index) => (
+    {Services.map((service, index) => (
         <button key={index} className='serviceItemButton' onClick={() => showModal(index)}>
             {service.title}
         </button>
@@ -189,6 +187,7 @@ export const DesigningServices = () => {
         open={open}
         onOk={closeModal}
         onCancel={closeModal}
+        footer={null}
         okButtonProps={{
             style: {
                 backgroundColor: '#999999',

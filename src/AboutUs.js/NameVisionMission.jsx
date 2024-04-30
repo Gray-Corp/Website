@@ -1,6 +1,6 @@
 import React from 'react'
 import CompanyPhoto from './CompanyPhoto'
-import photo from '../imgs/computer.jpg'
+import photo from '../imgs/Mission vision image.svg'
 import backgroundImage from '../imgs/Apple.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -29,34 +29,40 @@ AOS.init({
 
 function NameVisionMission() {
   return (
-    <div className=' h-7 w-full nvmMain'>
-
-      <div className='names'>
-        <img src={photo} style={{height:'100%',width:'100%'}}/>
+    <div className='w-full 
+    flex mob:flex-col mob:gap-14 justify-center items-center mob:py-10  
+    md:pl-7 mob:border-b-2'>
+ 
+      <div className='md:w-1/3 mob:hidden' >
+        <img src={photo} style={{width:'100%'}} alt=''/>
       </div>
-      <div className='vision' style={{width:'25%'}}>
-        <div  >
-        <span style={{fontSize:'100%', fontWeight:'1000'}}>
-        <h1> OUR VISION </h1>
+      <div className='vision'>
+        <div>
+        <span>
+        <h1 className='md:text-3xl mob:text-xl font-semibold text-[#333333]'> 
+        OUR VISION 
+        </h1>
         </span>
-        <span style={{fontSize:'100%', fontWeight:'500'}}>
-           <h1>
-           ECOME GLOBAL TECH PIONEER
+        <span>
+           <h1 className='md:text-lg mob:text-base text-[#666666]'>
+           BECOME GLOBAL TECH PIONEER
            </h1> 
         </span>
         </div>
         <div >
-        <span style={{fontSize:'100%', fontWeight:'1000'}}>
-        <h1> OUR MISSION </h1>
+        <span>
+        <h1 className='md:text-3xl mob:text-xl font-semibold text-[#333333]'> 
+        OUR MISSION 
+        </h1>
         </span>
-        <span style={{fontSize:'100%', fontWeight:'500'}}>
-           <h1>
+        <span>
+           <h1 className='md:text-lg mob:text-base text-[#666666]'>
            SIMPLIFYING THE DIGITAL LANDSCAPE
            </h1> 
         </span>
         </div>
       </div>
-   
+     
     </div>
   )
 }

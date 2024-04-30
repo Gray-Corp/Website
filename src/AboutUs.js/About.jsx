@@ -9,20 +9,21 @@ import WhyWeMain from './WhyWeMain'
 import Testing from '../Mainpage/Testing'
 import BackPhoto from './BackPhoto'
 import OverView from './OverView'
+import WhyUs from './WhyUs'
+import { Divider } from 'antd'
 function About() {
   return (
-    <div className='flex-column' style={{display:'flex',flexDirection:'column',rowGap:'1vh'}}>
+    <div className='flex-col' style={{display:'flex',flexDirection:'column'}}>
       <div>
       <TopMenu/>
       <div className='h-9'></div>
       <CompanyPhoto/>
-    <OverView/>
       </div>
-      
+      <div className='md:h-16'></div>
       <NameVisionMission/>
-      
-      <WhyWeMain/>
+      <WhyUs/>
       <Details/>
+      <div className='h-16'></div>
       <FooterMenu/>
     </div>
   )
