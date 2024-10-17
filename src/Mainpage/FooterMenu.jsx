@@ -44,40 +44,40 @@ const companyLinks=[
     id:1,
     title:"Products", 
     details:[
-      "IMS System",
-      "E-Commerce Websites",
-      "Static Websites",
-      "Mobile Apps",
+      {name:"IMS System", link:"#"},
+      {name:"E-Commerce Websites", link:"#"},
+      {name:"Static Websites", link:"#"},
+      {name:"Mobile Apps", link:"#"},      
     ]
   },
   {
     id:2,
     title:"Services", 
     details:[
-      "Tech",
-      "Branding",
-      "Supporting",
-      "Consulting",
+      {name:"Tech", link:"#"},
+      {name:"Branding", link:"#"},
+      {name:"Supporting", link:"#"},
+      {name:"Consulting", link:"#"},      
     ]
   },
   {
     id:3,
     title:"Other Projects", 
     details:[
-      "We creatures",
-      "Let's share",
-      "More Green",
-      "MDBootstrap",
+      {name:"We creatures", link:"#"},
+      {name:"Let's share", link:"#"},
+      {name:"More Green", link:"#"},
+      {name:"We Proved", link:"#"},      
     ]
   },
   {
     id:4,
     title:"Support", 
     details:[
-      "FAQ",
-      "Careers",
-      "About us",
-      "Contact",
+      {name:"FAQ", link:"#"},
+      {name:"Careers", link:"/careers"},
+      {name:"About us",link:"#"},
+      {name:"Contact",link:"#"},
     ]
   },
 
@@ -135,9 +135,9 @@ function FooterMenu() {
         <span><h1>{link.title}</h1></span>
         <div className='flex flex-col gap-1 '>
         {link.details.map(detail => (
-          <a key='*' href="#!" className="text-dark" > 
+          <a key='*' href={detail.link} className="text-dark" > 
         <p style={{fontSize:'1.5vh'}}> 
-        {detail}  
+        {detail.name}  
         </p></a>
         ))}
         </div>

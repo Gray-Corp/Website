@@ -3,7 +3,6 @@ import './main.css'
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import TopMenu from './TopMenu';
-
 import Testing from './Testing';
 import FooterMenu from './FooterMenu';
 import Developing from './Developing';
@@ -17,15 +16,13 @@ import Products from './Products';
 import Details from "../AboutUs.js/Details";
 import WhyUs from '../AboutUs.js/WhyUs';
 
-
 const Main = () => {
     
   return (
     <div style={{display:'flex',flexDirection:'column'}}>
         <TopMenu/>
         <div className='h-10'></div>
-        <CompanyName/>
-       
+        <CompanyName/> 
         <Developing/>
         <div className='md:h-14 mob:h-9 bg-[#333333]'></div>
         <Products/>

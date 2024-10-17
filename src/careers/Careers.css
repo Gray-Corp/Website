@@ -1,0 +1,57 @@
+
+.JoinWithGcMainDiv{
+    @apply bg-[#f2f2f2] flex justify-center md:py-12   
+}
+.JoinWithGcMainDivSubDiv{
+    @apply md:w-10/12 mob:w-11/12 flex flex-col md:gap-10 
+    mob:items-center justify-center  mob:gap-7 mob:pt-5
+}
+.slogan{
+    @apply md:text-6xl md:font-bold text-[#333333] 
+    flex flex-col items-center justify-center mob:text-2xl mob:font-extrabold mob:gap-2
+}
+.viewOpeningsButton{
+    @apply flex justify-center md:py-5 mob:px-2 mob:py-3 mob:w-full
+}
+.viewOpeningsButton>a>button{
+    @apply text-[#f2f2f2] bg-[#333333] h-full w-full text-base
+}
+.viewOpeningsButton>a{
+    @apply md:h-14 md:w-1/6 text-xl mob:h-10 mob:w-1/2 mob:px-5
+}
+.careerLogo{
+    @apply flex justify-center
+}
+.LifeAtGcImgs{
+    @apply  
+      flex flex-wrap w-3/4  items-center p-5 justify-around gap-5
+}
+.LifeAtGcMain{
+    @apply h-auto flex flex-col items-center
+    justify-center gap-7
+}
+.LifeAtGcMain> div > h1{
+    @apply font-semibold text-6xl 
+}
+.OpenPositionsMain{
+    @apply flex justify-center flex-col items-center gap-10 bg-white
+}
+.OpenPositionsMain>h1{
+    @apply text-4xl font-semibold 
+}
+.OpenPositionsSub{
+    @apply w-1/2  flex flex-col gap-5 
+
+}
+.OpenPositionsSub>div>a>div>h1{
+    @apply text-xl font-medium
+}
+.OpenPositionsButtonDiv{
+@apply flex w-36 h-12
+}
+.OpenPositionsButton{
+    @apply text-[#f2f2f2] bg-[#333333] p-3 text-base w-full h-12 font-normal
+}
+.OpenPositionsIndividualDiv{
+    @apply border-[#cccccc] flex justify-between py-5 w-full h-24
+}

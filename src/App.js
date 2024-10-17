@@ -7,6 +7,8 @@ import Pending from "./Pending";
 import ServiceMain from "./Services/ServiceMain";
 import ContactMain from "./Contact/ContactMain";
 import './Mainpage/Contents.css'
+import CareersMain from "./careers/CareersMain";
+import PositionsRequirements from "./careers/PositionsRequirements";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
     <Route path="/contact" element={<ContactMain/>}/>
     <Route path="/updates" element={<Pending/>}/>
     <Route path="/services" element={<ServiceMain/>}/>
+    <Route path="/careers" element={<CareersMain/>}/>
+    <Route path="/careers/openings" element={<PositionsRequirements/>}/>
     </Routes>  
     </Router>
     
